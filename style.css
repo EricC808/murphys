@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.hero-section {
+    height: 500px;
+    background: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #004030;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
