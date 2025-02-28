@@ -1,32 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
+  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-.navbar {
-    padding: 10px;
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+  padding-bottom: 15px;
 }
 
-.hero-section {
-    height: 500px;
-    background: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg') no-repeat center center/cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#centerText {
+  color: white;
+  height: 500px;
 }
 
-.overlay-text {
-    text-align: center;
-    color: white;
-    font-weight: bold;
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
 }
 
-.footer {
-    background-color: #004030;
-    color: white;
-    padding: 20px 0;
+div.nav-item.nav-link {
+  color: white;
 }
 
-.footer h5 {
-    font-weight: bold;
+.nav-link {
+  color: white;
 }
+
+  /* Ensure the toggler icon is visible */
+  .navbar-toggler {
+    border-color: white !important;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1); /* Makes it white */
+  }
+  
+/*:root {*/
+/*  --bs-link-color: white;*/
+/*}*/
